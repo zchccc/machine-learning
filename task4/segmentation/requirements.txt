@@ -1,0 +1,7 @@
+numpy>=1.24
+Pillow>=9.5
+pandas>=2.0
+# NVIDIA CUDA wheel; CUDA 12.6 runs on the installed 12.7 driver.
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch==2.14.1+cu126
+torchvision==0.29.1+cu126

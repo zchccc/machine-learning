@@ -1,0 +1,43 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Datasets and generated image trees
+task1/submit1/dataset-for-task2/
+task1/submit1/raw/*.png
+task1/submit1/raw/
+task2/fer_data/
+task3/detection/train/
+task3/detection/test/
+task3/detection/train_location/
+task4/segmentation/train/image/
+task4/segmentation/train/label/
+task4/segmentation/test/image/
+task1/submit1/*.png
+task1/submit1/*.jpg
+task2/classes.jpg
+task2/submission.csv
+task2/submission_new.csv
+task2/submission_v2.csv
+task3/新建 文本文档.txt
+task3/*.png
+task4/segmentation/image/
+
+# Model checkpoints, archives, and experiment dumps
+*.pt
+*.pth
+*.zip
+task3/output*/
+task3/backup*/
+task3/*.log
+
+# Local report/build/render artifacts
+report_render/
+*.pdf
+*.docx
+build_report.py
+

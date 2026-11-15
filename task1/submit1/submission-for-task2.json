@@ -1,0 +1,24 @@
+{
+  "classes": [
+    "Black-grass",
+    "Common wheat",
+    "Loose Silky-bent",
+    "Scentless Mayweed",
+    "Sugar beet"
+  ],
+  "train_images": 500,
+  "test_images": 378,
+  "feature_dimensions": 161,
+  "validation_mean_f1": 0.8763902710081087,
+  "validation_diagnostics": {
+    "linear_weight": 0.5,
+    "linear_weight_0.00": 0.8650905597907504,
+    "linear_weight_0.25": 0.8763902710081087,
+    "linear_weight_0.50": 0.8763902710081087,
+    "linear_weight_0.75": 0.855736893407727,
+    "linear_weight_1.00": 0.8456543402881916
+  },
+  "linear_probability_weight": 0.5,
+  "train_loss": 0.26939636092185976,
+  "output": "submission-for-task2.csv"
+}
